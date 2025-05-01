@@ -1,0 +1,37 @@
+:root {
+    --maincolor: #9A3C3C;
+    --secundarycolor: yellow;
+    --pace: 15px;
+    --clearcolor: white;
+}
+
+.navbar {
+    background-color: var(--maincolor) !important;
+    .navbar-brand {
+        img {
+            height: 60px;
+        }
+    }
+    .nav-link {
+        color: var(--clearcolor);
+    }
+    .active {
+        color: var(--secundarycolor)!important;
+    }
+}
+.container {
+    text-align: center;
+}
+.footer {
+    background-color: var(--maincolor);
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.card {
+    margin-bottom: var(--pace);
+    font-weight: bold;
+    img {
+        border-radius: 5px 5px 0 0;
+    }
+}
