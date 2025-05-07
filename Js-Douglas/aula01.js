@@ -42,15 +42,16 @@ const prompt = require("prompt-sync")();
 // }
 
 
+
 // let nomes = []
 // let quantidade = 0
 // let otroNome = ""
 // do {
 //     let nome = prompt("Digite um Nome: ");
-//     let continuar = prompt("Quer digitar mais nomes: s/n ? ");
+//     otroNome = prompt("Quer digitar mais nomes: s/n ? ");
 
 //     quantidade = quantidade +1
-//     otroNome = continuar 
+     
 
 //     nomes.push(nome);
 
