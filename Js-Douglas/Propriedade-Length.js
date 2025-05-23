@@ -1,29 +1,29 @@
 // const frutas = ["maçã", "banana", "laranja"];
 // console.log(frutas.length);
 
-const prompt = require("prompt-sync")();
+const prompt = require('prompt-sync')();
 
-let nomes = []
-let notas = []
-let ctn = ""
-do {
-    let nome = prompt("Digite um Nome: ");
-     ctn = prompt("Quer digitar mais nomes: s/n ? ");
+// let nomes = []
+// let notas = []
+// let ctn = ""
+// do {
+//     let nome = prompt("Digite um Nome: ");
+//      ctn = prompt("Quer digitar mais nomes: s/n ? ");
 
    
 
-    nomes.push(nome);
+//     nomes.push(nome);
 
-}while (ctn == "s");
+// }while (ctn == "s");
 
 
 
-for(let x=0; x< nomes.length; x++){
-    let nota = prompt("A nota do aluno: " + (nomes[x]) + " = ");
-    notas.push(nota)
-}
-for(let x=0; x<nomes.length; x++){
-    console.log("Nota: " + nomes[x] + " -> " + notas[x])
+// for(let x=0; x< nomes.length; x++){
+//     let nota = prompt("A nota do aluno: " + (nomes[x]) + " = ");
+//     notas.push(nota)
+// }
+// for(let x=0; x<nomes.length; x++){
+//     console.log("Nota: " + nomes[x] + " -> " + notas[x])
 }
 
 

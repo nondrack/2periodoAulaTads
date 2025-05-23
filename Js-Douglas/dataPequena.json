@@ -1,0 +1,34 @@
+{
+    "roupas": [
+      {
+        "id": 1,
+        "descricao": "Vestido Floral",
+        "estoque": 8,
+        "precoPago": 40,
+        "fornecedorId": 1
+      }
+    ],
+    "fornecedores": [
+      {
+        "id": 1,
+        "nome": "Moda Vintage Ltda",
+        "contato": "contato@modavintage.com"
+      }
+    ],
+    "clientes": [
+      {
+        "id": 1,
+        "nome": "João Silva",
+        "email": "joao@email.com"
+      }
+    ],
+    "vendas": [
+      {
+        "id": 1,
+        "clienteId": 2,
+        "roupasCompradas": [3, 5, 6],
+        "dataHora": "2025-04-22T18:06:43.243Z",
+        "valorVenda": 123
+      }
+    ]
+  }
