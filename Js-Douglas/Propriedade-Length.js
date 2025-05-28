@@ -46,20 +46,20 @@ const prompt = require("prompt-sync")();
 // const novoTamanho = frutas.push("laranja", "uva");
 // console.log(frutas);
 // console.log(novoTamanho); 
+function tarefa (){
+let lista = []
+let adcTarefa = ""
 
-// let lista = []
-// let adcTarefa = ""
-
-// do{
+do{
     
-//     let tarefa = prompt("Adicionar uma tarefa: ");
-//     lista.push(tarefa)
-//     console.log(lista)
-//     adcTarefa = prompt("Quer adicionar uma tarefa? s/n ");
+    let tarefa = prompt("Adicionar uma tarefa: ");
+    lista.push(tarefa)
+    console.log(lista)
+    adcTarefa = prompt("Quer adicionar uma tarefa? s/n ");
 
-// }while(adcTarefa == "s")
-//     for(let x = 0; x < lista.length; x++){
-//         console.log(x + 1 + " -> " + lista[x]);
+}while(adcTarefa == "s")
+    for(let x = 0; x < lista.length; x++){
+        console.log(x + 1 + " -> " + lista[x]);
         
-//     }
-    
+    }
+    }
