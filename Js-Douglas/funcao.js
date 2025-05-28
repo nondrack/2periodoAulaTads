@@ -67,12 +67,12 @@ const prompt = require("prompt-sync")();
 // somar();
 
 
-// function darBoasVindas(nome){
-//     nome = prompt("Digite seu nome: ");
-//     console.log("Boas vindas " + nome)
-// }
+function darBoasVindas(nome){
+    nome = prompt("Digite seu nome: ");
+    console.log("Boas vindas " + nome)
+}
 
-// darBoasVindas()
+darBoasVindas()
 
 
 // function multiplicar(a,b){
@@ -101,12 +101,12 @@ const prompt = require("prompt-sync")();
 //   console.log("Número: " + numero);
 // });
 
-function somarNumeros(num1, num2) {
-    let resultado = num1 + num2;
-    return resultado;
-  }
+// function somarNumeros(num1, num2) {
+//     let resultado = num1 + num2;
+//     return resultado;
+//   }
   
-  let total = somarNumeros(15, 7);
+//   let total = somarNumeros(15, 7);
 
 
 // const duplicar = x => x * 2;
